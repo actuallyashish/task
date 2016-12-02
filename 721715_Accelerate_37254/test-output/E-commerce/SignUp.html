@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>TestNG:  SignUp</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SignUp</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 02 09:25:01 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>173 seconds (173466 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestSignUpPage.testSignUpPage()'><b>testSignUpPage</b><br>Test class: tests.TestSignUpPage<br>Parameters: W, , , , virat@kohli.com, , , , , , , , , , , , , , , , , , , <br/>
+<a href="#Output-7780346" onClick='toggleBox("Output-7780346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7780346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7780346">
+Radio button checked- Only one option can be selected in radio button<br><br/>
+Following errors are displayed - <br>There are 8 errors
+You must register at least one phone number.
+lastname is required.
+firstname is required.
+passwd is required.
+address1 is required.
+city is required.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.<br><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>tests.TestSignUpPage@c5564e</td></tr>
+<tr>
+<td title='tests.TestSignUpPage.testSignUpPage()'><b>testSignUpPage</b><br>Test class: tests.TestSignUpPage<br>Parameters: W, Ms., Virat@7, Kohli*6, virat@kohli.com, 1234, , , , L, M, , , , @, %, 23@, India, Kent, 9876, , , +8765432345, <br/>
+<a href="#Output-9803581" onClick='toggleBox("Output-9803581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9803581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9803581">
+Radio button checked- Only one option can be selected in radio button<br><br/>
+Following errors are displayed - <br>There are 7 errors
+lastname is invalid.
+firstname is invalid.
+passwd is invalid.
+address1 is invalid.
+city is invalid.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.<br><br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>tests.TestSignUpPage@c5564e</td></tr>
+<tr>
+<td title='tests.TestSignUpPage.testSignUpPage()'><b>testSignUpPage</b><br>Test class: tests.TestSignUpPage<br>Parameters: R, Mr., Roger, Federer, roger@infosys.com, 12345, 16, January, 1988, Y, , , , , Napier Town, , Louisville, United States, Alabama, 40201, , , +8765432345, <br/>
+<a href="#Output-1878557" onClick='toggleBox("Output-1878557", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1878557" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878557">
+Radio button checked- Only one option can be selected in radio button<br><br/>
+Sign out found<br><br/>
+Sign up valid<br><br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>tests.TestSignUpPage@c5564e</td></tr>
+<tr>
+<td title='tests.TestSignUpPage.testSignUpPage()'><b>testSignUpPage</b><br>Test class: tests.TestSignUpPage<br>Parameters: R, Mrs., Maria, Sharapova, maria@infosys.com, 09876, 20, March, 1986, N, Y, Masha, Shara, Oz, Wright Town, cb, Omaha, United States, Alaska, 68114, player, 87654323, +9865432176, addr<br/>
+<a href="#Output-32757236" onClick='toggleBox("Output-32757236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32757236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32757236">
+Radio button checked- Only one option can be selected in radio button<br><br/>
+Sign out found<br><br/>
+Sign up valid<br><br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>tests.TestSignUpPage@c5564e</td></tr>
+</table><p>
+</body>
+</html>

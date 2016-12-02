@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+    <line>
+      <![CDATA[Page title verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Home page header verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Website's logo verified <br>]]>
+    </line>
+    <line>
+      <![CDATA[Search bar in Home page verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search button in Home page verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Categories in Home page verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign out found<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign in valid<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign out found<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign in valid<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign in Invalid due to incorrect username/password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign in Invalid due to incorrect username/password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Signup form found<br>]]>
+    </line>
+    <line>
+      <![CDATA[Signup form found<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign up error message displayed Invalid email address.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign up error message displayed An account using this email address has already been registered. Please enter a valid password or request a new one.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Following errors are displayed - <br>There are 8 errors
+You must register at least one phone number.
+lastname is required.
+firstname is required.
+passwd is required.
+address1 is required.
+city is required.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Following errors are displayed - <br>There are 7 errors
+lastname is invalid.
+firstname is invalid.
+passwd is invalid.
+address1 is invalid.
+city is invalid.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign out found<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign up valid<br>]]>
+    </line>
+    <line>
+      <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign out found<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign up valid<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search page title verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search result summary - SEARCH  "SHIRTS"
+1 result has been found.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search page title verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search result summary - SEARCH 
+0 results have been found.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search page title verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search result summary - SEARCH  "BLOUSES"
+1 result has been found.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Title of the Category page verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Category result summary - WOMEN 
+There are 7 products.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sub-Category result summary - TOPS 
+There are 2 products.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Password retrieved <br>]]>
+    </line>
+    <line>
+      <![CDATA[Password retrieved <br>]]>
+    </line>
+    <line>
+      <![CDATA[Password can't be retrieved <br>]]>
+    </line>
+    <line>
+      <![CDATA[Password can't be retrieved <br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b>This method tests product detail display and add to cart functionality</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[Product picture verified<br>]]>
+    </line>
+    <line>
+      <![CDATA[Product name verified - Printed Chiffon Dress<br>]]>
+    </line>
+    <line>
+      <![CDATA[Product price verified - $16.40<br>]]>
+    </line>
+    <line>
+      <![CDATA[Available product quantity is verified 7856<br>]]>
+    </line>
+    <line>
+      <![CDATA[51.0]]>
+    </line>
+    <line>
+      <![CDATA[Total cart amount matches expected amount - 51.0<br>]]>
+    </line>
+    <line>
+      <![CDATA[Product in the cart- Proceed to checkout<br>]]>
+    </line>
+    <line>
+      <![CDATA[Delivery Address YOUR DELIVERY ADDRESS
+Ashish Tiwari
+Hyderabad
+Hyderabad, Indiana 46001
+United States
+1236549874
+Update<br>]]>
+    </line>
+    <line>
+      <![CDATA[Agreed to shipping terms<br>]]>
+    </line>
+    <line>
+      <![CDATA[Payment Summary - CHECK PAYMENT<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="E-commerce" duration-ms="523664" started-at="2016-12-02T03:53:06Z" finished-at="2016-12-02T04:01:49Z">
+    <groups>
+    </groups>
+    <test name="Home Page" duration-ms="33202" started-at="2016-12-02T03:53:06Z" finished-at="2016-12-02T03:53:39Z">
+      <class name="tests.TestAPHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestAPHomePage@deea66]" name="setUp" is-config="true" duration-ms="30167" started-at="2016-12-02T09:23:06Z" finished-at="2016-12-02T09:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:tests.TestAPHomePage@deea66]" name="testHomePage" duration-ms="851" started-at="2016-12-02T09:23:36Z" finished-at="2016-12-02T09:23:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page title verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Home page header verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Website's logo verified <br>]]>
+            </line>
+            <line>
+              <![CDATA[Search bar in Home page verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search button in Home page verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Categories in Home page verified<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestAPHomePage@deea66]" name="afterTest" is-config="true" duration-ms="2149" started-at="2016-12-02T09:23:37Z" finished-at="2016-12-02T09:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestAPHomePage -->
+    </test> <!-- Home Page -->
+    <test name="Login" duration-ms="82405" started-at="2016-12-02T03:53:39Z" finished-at="2016-12-02T03:55:01Z">
+      <class name="tests.TestAPLoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestAPLoginPage@1450701]" name="setUp" is-config="true" duration-ms="26367" started-at="2016-12-02T09:23:39Z" finished-at="2016-12-02T09:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestAPLoginPage@1450701]" name="testLoginPage" duration-ms="13066" started-at="2016-12-02T09:24:05Z" data-provider="Users" finished-at="2016-12-02T09:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[actuallyashish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign out found<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign in valid<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestAPLoginPage@1450701]" name="testLoginPage" duration-ms="6870" started-at="2016-12-02T09:24:18Z" data-provider="Users" finished-at="2016-12-02T09:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[721715@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign out found<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign in valid<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestAPLoginPage@1450701]" name="testLoginPage" duration-ms="4247" started-at="2016-12-02T09:24:25Z" data-provider="Users" finished-at="2016-12-02T09:24:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign in Invalid due to incorrect username/password<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestAPLoginPage@1450701]" name="testLoginPage" duration-ms="4615" started-at="2016-12-02T09:24:30Z" data-provider="Users" finished-at="2016-12-02T09:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign in Invalid due to incorrect username/password<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testSignUpEmail(java.lang.String, java.lang.String)[pri:1, instance:tests.TestAPLoginPage@1450701]" name="testSignUpEmail" duration-ms="6068" started-at="2016-12-02T09:24:34Z" data-provider="SignUp" finished-at="2016-12-02T09:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alan@shore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Signup form found<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpEmail -->
+        <test-method status="PASS" signature="testSignUpEmail(java.lang.String, java.lang.String)[pri:1, instance:tests.TestAPLoginPage@1450701]" name="testSignUpEmail" duration-ms="5494" started-at="2016-12-02T09:24:40Z" data-provider="SignUp" finished-at="2016-12-02T09:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bill@carr.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Signup form found<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpEmail -->
+        <test-method status="PASS" signature="testSignUpEmail(java.lang.String, java.lang.String)[pri:1, instance:tests.TestAPLoginPage@1450701]" name="testSignUpEmail" duration-ms="7242" started-at="2016-12-02T09:24:46Z" data-provider="SignUp" finished-at="2016-12-02T09:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[virat@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign up error message displayed Invalid email address.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpEmail -->
+        <test-method status="PASS" signature="testSignUpEmail(java.lang.String, java.lang.String)[pri:1, instance:tests.TestAPLoginPage@1450701]" name="testSignUpEmail" duration-ms="6946" started-at="2016-12-02T09:24:53Z" data-provider="SignUp" finished-at="2016-12-02T09:25:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[actuallyashish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign up error message displayed An account using this email address has already been registered. Please enter a valid password or request a new one.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpEmail -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestAPLoginPage@1450701]" name="afterTest" is-config="true" duration-ms="1423" started-at="2016-12-02T09:25:00Z" finished-at="2016-12-02T09:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestAPLoginPage -->
+    </test> <!-- Login -->
+    <test name="SignUp" duration-ms="173466" started-at="2016-12-02T03:55:01Z" finished-at="2016-12-02T03:57:55Z">
+      <class name="tests.TestSignUpPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.TestSignUpPage@c5564e]" name="beforeTest" is-config="true" duration-ms="24157" started-at="2016-12-02T09:25:01Z" finished-at="2016-12-02T09:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestSignUpPage@c5564e]" name="testSignUpPage" duration-ms="23421" started-at="2016-12-02T09:25:26Z" data-provider="Emails" finished-at="2016-12-02T09:25:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[virat@kohli.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Following errors are displayed - <br>There are 8 errors
+You must register at least one phone number.
+lastname is required.
+firstname is required.
+passwd is required.
+address1 is required.
+city is required.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestSignUpPage@c5564e]" name="testSignUpPage" duration-ms="42231" started-at="2016-12-02T09:25:49Z" data-provider="Emails" finished-at="2016-12-02T09:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Virat@7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kohli*6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[virat@kohli.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[%]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[23@]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Kent]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[9876]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[+8765432345]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Following errors are displayed - <br>There are 7 errors
+lastname is invalid.
+firstname is invalid.
+passwd is invalid.
+address1 is invalid.
+city is invalid.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestSignUpPage@c5564e]" name="testSignUpPage" duration-ms="40453" started-at="2016-12-02T09:26:31Z" data-provider="Emails" finished-at="2016-12-02T09:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Roger]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Federer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[roger@infosys.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Napier Town]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Louisville]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Alabama]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[40201]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[+8765432345]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign out found<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign up valid<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="testSignUpPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestSignUpPage@c5564e]" name="testSignUpPage" duration-ms="41151" started-at="2016-12-02T09:27:12Z" data-provider="Emails" finished-at="2016-12-02T09:27:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharapova]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[maria@infosys.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09876]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1986]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Masha]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Shara]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Oz]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Wright Town]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[cb]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Omaha]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Alaska]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[68114]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[player]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[87654323]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[+9865432176]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[addr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Radio button checked- Only one option can be selected in radio button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign out found<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign up valid<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestSignUpPage@c5564e]" name="afterTest" is-config="true" duration-ms="1998" started-at="2016-12-02T09:27:53Z" finished-at="2016-12-02T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestSignUpPage -->
+    </test> <!-- SignUp -->
+    <test name="Search" duration-ms="35587" started-at="2016-12-02T03:57:55Z" finished-at="2016-12-02T03:58:30Z">
+      <class name="tests.TestAPSearchFunction">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestAPSearchFunction@1bc6271]" name="setUp" is-config="true" duration-ms="19747" started-at="2016-12-02T09:27:55Z" finished-at="2016-12-02T09:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchFunction(java.lang.String)[pri:0, instance:tests.TestAPSearchFunction@1bc6271]" name="testSearchFunction" duration-ms="5301" started-at="2016-12-02T09:28:15Z" data-provider="Keywords" finished-at="2016-12-02T09:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search page title verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search result summary - SEARCH  "SHIRTS"
+1 result has been found.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchFunction -->
+        <test-method status="PASS" signature="testSearchFunction(java.lang.String)[pri:0, instance:tests.TestAPSearchFunction@1bc6271]" name="testSearchFunction" duration-ms="5951" started-at="2016-12-02T09:28:20Z" data-provider="Keywords" finished-at="2016-12-02T09:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search page title verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search result summary - SEARCH 
+0 results have been found.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchFunction -->
+        <test-method status="PASS" signature="testSearchFunction(java.lang.String)[pri:0, instance:tests.TestAPSearchFunction@1bc6271]" name="testSearchFunction" duration-ms="3095" started-at="2016-12-02T09:28:26Z" data-provider="Keywords" finished-at="2016-12-02T09:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search page title verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search result summary - SEARCH  "BLOUSES"
+1 result has been found.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchFunction -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestAPSearchFunction@1bc6271]" name="afterTest" is-config="true" duration-ms="1479" started-at="2016-12-02T09:28:29Z" finished-at="2016-12-02T09:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestAPSearchFunction -->
+    </test> <!-- Search -->
+    <test name="Category Navigation" duration-ms="32043" started-at="2016-12-02T03:58:30Z" finished-at="2016-12-02T03:59:03Z">
+      <class name="tests.TestCategoryFunction">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestCategoryFunction@1905335]" name="setUp" is-config="true" duration-ms="20044" started-at="2016-12-02T09:28:30Z" finished-at="2016-12-02T09:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCategories()[pri:0, instance:tests.TestCategoryFunction@1905335]" name="testCategories" duration-ms="10529" started-at="2016-12-02T09:28:51Z" finished-at="2016-12-02T09:29:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of the Category page verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Category result summary - WOMEN 
+There are 7 products.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sub-Category result summary - TOPS 
+There are 2 products.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCategories -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestCategoryFunction@1905335]" name="afterTest" is-config="true" duration-ms="1462" started-at="2016-12-02T09:29:01Z" finished-at="2016-12-02T09:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestCategoryFunction -->
+    </test> <!-- Category Navigation -->
+    <test name="Forgot Password" duration-ms="44417" started-at="2016-12-02T03:59:03Z" finished-at="2016-12-02T03:59:47Z">
+      <class name="tests.TestForgotPasswordPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.TestForgotPasswordPage@c3f750]" name="beforeTest" is-config="true" duration-ms="26730" started-at="2016-12-02T09:29:03Z" finished-at="2016-12-02T09:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testForgotPasswordPage(java.lang.String, java.lang.String)[pri:0, instance:tests.TestForgotPasswordPage@c3f750]" name="testForgotPasswordPage" duration-ms="5787" started-at="2016-12-02T09:29:29Z" data-provider="Emails" finished-at="2016-12-02T09:29:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[actuallyashish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Password retrieved <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPage -->
+        <test-method status="PASS" signature="testForgotPasswordPage(java.lang.String, java.lang.String)[pri:0, instance:tests.TestForgotPasswordPage@c3f750]" name="testForgotPasswordPage" duration-ms="4656" started-at="2016-12-02T09:29:35Z" data-provider="Emails" finished-at="2016-12-02T09:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[721715@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Password retrieved <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPage -->
+        <test-method status="PASS" signature="testForgotPasswordPage(java.lang.String, java.lang.String)[pri:0, instance:tests.TestForgotPasswordPage@c3f750]" name="testForgotPasswordPage" duration-ms="2831" started-at="2016-12-02T09:29:40Z" data-provider="Emails" finished-at="2016-12-02T09:29:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhgfre@xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Password can't be retrieved <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPage -->
+        <test-method status="PASS" signature="testForgotPasswordPage(java.lang.String, java.lang.String)[pri:0, instance:tests.TestForgotPasswordPage@c3f750]" name="testForgotPasswordPage" duration-ms="2941" started-at="2016-12-02T09:29:43Z" data-provider="Emails" finished-at="2016-12-02T09:29:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nbgahf@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Password can't be retrieved <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestForgotPasswordPage@c3f750]" name="afterTest" is-config="true" duration-ms="1453" started-at="2016-12-02T09:29:46Z" finished-at="2016-12-02T09:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestForgotPasswordPage -->
+    </test> <!-- Forgot Password -->
+    <test name="Product details and Add to cart" duration-ms="51345" started-at="2016-12-02T03:59:47Z" finished-at="2016-12-02T04:00:38Z">
+      <class name="tests.TestProdCartDetail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestProdCartDetail@1066d88]" name="setUp" is-config="true" duration-ms="20923" started-at="2016-12-02T09:29:47Z" finished-at="2016-12-02T09:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddToCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestProdCartDetail@1066d88]" name="testAddToCart" duration-ms="28508" started-at="2016-12-02T09:30:08Z" data-provider="Details" finished-at="2016-12-02T09:30:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[actuallyashish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Summer Dress]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br><b>This method tests product detail display and add to cart functionality</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[Product picture verified<br>]]>
+            </line>
+            <line>
+              <![CDATA[Product name verified - Printed Chiffon Dress<br>]]>
+            </line>
+            <line>
+              <![CDATA[Product price verified - $16.40<br>]]>
+            </line>
+            <line>
+              <![CDATA[Available product quantity is verified 7856<br>]]>
+            </line>
+            <line>
+              <![CDATA[51.0]]>
+            </line>
+            <line>
+              <![CDATA[Total cart amount matches expected amount - 51.0<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestProdCartDetail@1066d88]" name="afterTest" is-config="true" duration-ms="1906" started-at="2016-12-02T09:30:36Z" finished-at="2016-12-02T09:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestProdCartDetail -->
+    </test> <!-- Product details and Add to cart -->
+    <test name="Check Out" duration-ms="71059" started-at="2016-12-02T04:00:38Z" finished-at="2016-12-02T04:01:49Z">
+      <class name="tests.TestCheckOut">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestCheckOut@1be496b]" name="setUp" is-config="true" duration-ms="22155" started-at="2016-12-02T09:30:38Z" finished-at="2016-12-02T09:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestCheckOut@1be496b]" name="testCheckOut" duration-ms="47328" started-at="2016-12-02T09:31:00Z" data-provider="Inputs" finished-at="2016-12-02T09:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[actuallyashish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Summer Dress]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product in the cart- Proceed to checkout<br>]]>
+            </line>
+            <line>
+              <![CDATA[Delivery Address YOUR DELIVERY ADDRESS
+Ashish Tiwari
+Hyderabad
+Hyderabad, Indiana 46001
+United States
+1236549874
+Update<br>]]>
+            </line>
+            <line>
+              <![CDATA[Agreed to shipping terms<br>]]>
+            </line>
+            <line>
+              <![CDATA[Payment Summary - CHECK PAYMENT<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckOut -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestCheckOut@1be496b]" name="afterTest" is-config="true" duration-ms="1570" started-at="2016-12-02T09:31:48Z" finished-at="2016-12-02T09:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestCheckOut -->
+    </test> <!-- Check Out -->
+  </suite> <!-- E-commerce -->
+</testng-results>

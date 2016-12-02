@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-commerce">
+  <test name="Home Page">
+    <classes>
+      <class name="tests.TestAPHomePage"/>
+    </classes>
+  </test>
+  <test name="Login">
+  	<classes>
+      <class name="tests.TestAPLoginPage"/>
+  	</classes>
+  </test>
+  <test name="SignUp">
+  	<classes>
+      <class name="tests.TestSignUpPage"/>
+  	</classes>
+  </test>
+  <test name="Search">
+  	<classes>
+      <class name="tests.TestAPSearchFunction"/>
+    </classes>
+  </test>
+  <test name="Category Navigation">
+  	<classes>
+      <class name="tests.TestCategoryFunction"/>
+    </classes>
+  </test>
+  <test name="Forgot Password">
+  	<classes>
+      <class name="tests.TestForgotPasswordPage"/>
+    </classes>
+  </test>
+  <test name="Product details and Add to cart">
+  	<classes>
+      <class name="tests.TestProdCartDetail"/>
+    </classes>
+  </test>
+  <test name="Check Out">
+  	<classes>
+      <class name="tests.TestCheckOut"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- E-commerce -->

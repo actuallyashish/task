@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E-commerce]">
+  <test name="SignUp(failed)">
+    <classes>
+      <class name="tests.TestCheckOut">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.TestCheckOut -->
+      <class name="tests.TestSignUpPage">
+        <methods>
+          <include name="testSignUpPage" invocation-numbers="3"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.TestSignUpPage -->
+      <class name="tests.TestCategoryFunction">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestCategoryFunction -->
+      <class name="tests.TestAPLoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.TestAPLoginPage -->
+      <class name="tests.TestProdCartDetail">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.TestProdCartDetail -->
+      <class name="tests.TestAPSearchFunction">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestAPSearchFunction -->
+      <class name="tests.TestForgotPasswordPage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.TestForgotPasswordPage -->
+      <class name="tests.TestAPHomePage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestAPHomePage -->
+    </classes>
+  </test> <!-- SignUp(failed) -->
+</suite> <!-- Failed suite [E-commerce] -->

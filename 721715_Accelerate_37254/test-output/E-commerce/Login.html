@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 02 09:23:39 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>82 seconds (82405 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestAPLoginPage.testLoginPage()'><b>testLoginPage</b><br>Test class: tests.TestAPLoginPage<br>Parameters: actuallyashish@gmail.com, 12345, valid<br/>
+<a href="#Output-22032478" onClick='toggleBox("Output-22032478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22032478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22032478">
+Sign out found<br><br/>
+Sign in valid<br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testLoginPage()'><b>testLoginPage</b><br>Test class: tests.TestAPLoginPage<br>Parameters: 721715@xyz.com, abcde, valid<br/>
+<a href="#Output-6746215" onClick='toggleBox("Output-6746215", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6746215" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6746215">
+Sign out found<br><br/>
+Sign in valid<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testLoginPage()'><b>testLoginPage</b><br>Test class: tests.TestAPLoginPage<br>Parameters: abc@xyz.com, abcde, invalid<br/>
+<a href="#Output-932375" onClick='toggleBox("Output-932375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-932375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-932375">
+Sign in Invalid due to incorrect username/password<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testLoginPage()'><b>testLoginPage</b><br>Test class: tests.TestAPLoginPage<br>Parameters: xyz@abc.com, 12345, invalid<br/>
+<a href="#Output-33445160" onClick='toggleBox("Output-33445160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33445160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33445160">
+Sign in Invalid due to incorrect username/password<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testSignUpEmail()'><b>testSignUpEmail</b><br>Test class: tests.TestAPLoginPage<br>Parameters: alan@shore.com, valid<br/>
+<a href="#Output-25390208" onClick='toggleBox("Output-25390208", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25390208" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25390208">
+Signup form found<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testSignUpEmail()'><b>testSignUpEmail</b><br>Test class: tests.TestAPLoginPage<br>Parameters: bill@carr.com, valid<br/>
+<a href="#Output-7153960" onClick='toggleBox("Output-7153960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7153960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7153960">
+Signup form found<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testSignUpEmail()'><b>testSignUpEmail</b><br>Test class: tests.TestAPLoginPage<br>Parameters: virat@, invalid<br/>
+<a href="#Output-21907899" onClick='toggleBox("Output-21907899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21907899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21907899">
+Sign up error message displayed Invalid email address.<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+<tr>
+<td title='tests.TestAPLoginPage.testSignUpEmail()'><b>testSignUpEmail</b><br>Test class: tests.TestAPLoginPage<br>Parameters: actuallyashish@gmail.com, invalid<br/>
+<a href="#Output-24649693" onClick='toggleBox("Output-24649693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24649693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24649693">
+Sign up error message displayed An account using this email address has already been registered. Please enter a valid password or request a new one.<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>tests.TestAPLoginPage@1450701</td></tr>
+</table><p>
+</body>
+</html>
